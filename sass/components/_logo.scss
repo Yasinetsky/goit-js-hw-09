@@ -1,0 +1,23 @@
+.logo {
+  margin-top: auto;
+  margin-bottom: auto;
+
+  color: var(--accent-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+
+  @media screen and (min-width: $tablet) {
+    margin-right: 93px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    margin-right: 93px;
+  }
+}
+
+.logo--black {
+  color: var(--color-black);
+}
