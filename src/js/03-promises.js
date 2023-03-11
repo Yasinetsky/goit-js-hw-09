@@ -6,3 +6,4 @@ function createPromise(position, delay) {
     // Reject
   }
 }
+import Notiflix from 'notiflix';
